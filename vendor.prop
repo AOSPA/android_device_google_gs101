@@ -10,3 +10,7 @@ persist.vendor.ril.use_radio_hal=1.6
 ro.vendor.config.build_carrier=europen
 vendor.rild.libpath=libsitril.so
 persist.vendor.ril.ecc.xml=1
+
+# UWB
+ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/calib_paths
+persist.uwb.enable_uci_stack=1

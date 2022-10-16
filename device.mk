@@ -448,6 +448,9 @@ PRODUCT_COPY_FILES += \
 # IRQ rebalancing.
 include hardware/google/pixel/rebalance_interrupts/rebalance_interrupts.mk
 
+# ConnectivityThermalPowermanager
+include hardware/google/pixel/connectivity_thermal_power_manager/connectivity_thermal_power_manager.mk
+
 # PowerStats HAL
 PRODUCT_PACKAGES += \
 	android.hardware.power.stats-service.pixel

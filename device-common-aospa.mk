@@ -17,6 +17,9 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+PRODUCT_PACKAGES += \
+    android.hardware.qorvo.uwb.service
+
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
@@ -35,3 +38,7 @@ TARGET_VENDOR_PROP := device/google/gs101/vendor.prop
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     packages/modules/Bluetooth/android/app
+
+# Telephony
+PRODUCT_PACKAGES += \
+    TelephonyOverlay
