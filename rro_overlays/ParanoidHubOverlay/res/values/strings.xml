@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The server that hosts the update files -->
+    <string name="system_update_server_url" translatable="false">"https://raw.githubusercontent.com/Sirhc95/ota_test/master/"</string>
+</resources>
